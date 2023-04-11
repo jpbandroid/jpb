@@ -1,0 +1,106 @@
+<head>
+  <link href="./scripts/material-components-web.min.css" rel="stylesheet">
+  <script src="./scripts/material-components-web.min.js"></script>
+  <link rel="stylesheet" href="./scripts/icon.css">
+<style>
+#my-card {
+  height: 350px;
+  width: 350px;
+}
+</style>
+<title>jpbROM 13 rollout - jpb</title>
+</head>
+<html>
+<body>
+<header class="mdc-top-app-bar mdc-top-app-bar--fixed" style="top: 0px;"><div class="mdc-top-app-bar__row"><section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"><button class="mdc-icon-button material-icons mdc-top-app-bar__navigation-icon mdc-ripple-upgraded--unbounded mdc-ripple-upgraded" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;">menu</button><span class="mdc-top-app-bar__title">jpb Website</span></section><section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"><button class="mdc-icon-button material-icons mdc-top-app-bar__action-item mdc-ripple-upgraded--unbounded mdc-ripple-upgraded" aria-label="Download" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;">file_download</button><button class="mdc-icon-button material-icons mdc-top-app-bar__action-item mdc-ripple-upgraded--unbounded mdc-ripple-upgraded" aria-label="Print this page" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;">print</button><button class="mdc-icon-button material-icons mdc-top-app-bar__action-item mdc-ripple-upgraded--unbounded mdc-ripple-upgraded" aria-label="Bookmark this page" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;">bookmark</button></section></div></header>
+<div class="mdc-top-app-bar--fixed-adjust">
+<h1>jpbROM 13 rollout tracker - new features, supported devices, and more!</h1>
+<h2>Device rollout status</h2>
+<table class="wikitable" style="text-align:center;font-size:90%;margin-left:10px">
+<tbody><tr>
+<th rowspan="2">Device
+</th>
+<th rowspan="2">Rollout date (of first jpbROM 13 build)
+</th>
+<th rowspan="2">current jpbROM version
+</th>
+<th rowspan="2">Release date of current jpbROM version
+</th>
+</tr>
+<tr></tr>
+<tr>
+<td>Android Emulator x86-64
+</td>
+<td><span data-sort-value="000000002023-03-25-0000" style="white-space:nowrap">March 25, 2023</span>
+</td>
+<td>13.1.5.0.TDVMNMI
+</td>
+<td><span data-sort-value="000000002023-04-10-0000" style="white-space:nowrap">April 10, 2023</span>
+</td>
+</tr>
+<tr>
+<td>Pixel 6a
+</td>
+<td><span data-sort-value="000000002023-04-02-0000" style="white-space:nowrap">April 2, 2023 (planned, never released)</span>
+</td>
+<td>13.1.2.0.TBLMNMI (planned)
+</td>
+<td><span data-sort-value="000000002023-04-12-0000" style="white-space:nowrap">April 12, 2023 (planned)</span>
+</td></tr>
+<tr>
+<td rowspan="2">Pixel 6 & Pixel 6 Pro
+</td>
+<td rowspan="2"><span data-sort-value="000000002023-04-11-0000" style="white-space:nowrap">Not released yet</span>
+</td>
+<td>13.1.1.0.TORMNMI (planned, Pixel 6)
+</td>
+<td rowspan="2"><span data-sort-value="000000002023-04-30-0000" style="white-space:nowrap">planned release in Late April</span>
+</td>
+</tr>
+<tr>
+<td>13.1.1.0.TRAMNMI (planned, Pixel 6 Pro)
+</td>
+</tr>
+<tr>
+<td>POCO X3 NFC
+</td>
+<td><span data-sort-value="000000002023-04-11-0000" style="white-space:nowrap">Not released yet</span>
+</td>
+<td>13.2.1.0.TJGMNMI (planned)
+</td>
+<td><span data-sort-value="000000002023-06-30-0000" style="white-space:nowrap">planned release in June</span>
+</td>
+</tr>
+<tr>
+<td>Pixel 5a
+</td>
+<td><span data-sort-value="000000002023-04-11-0000" style="white-space:nowrap">Not released yet</span>
+</td>
+<td>13.2.1.0.TBTMNMI (planned)
+</td>
+<td><span data-sort-value="000000002023-06-30-0000" style="white-space:nowrap">planned release in June</span>
+</td>
+</tr>
+<tr>
+<td>Pixel 5
+</td>
+<td><span data-sort-value="000000002023-04-11-0000" style="white-space:nowrap">Not released yet</span>
+</td>
+<td>13.2.1.0.TRFMNMI (planned)
+</td>
+<td><span data-sort-value="000000002023-06-30-0000" style="white-space:nowrap">planned release in June</span>
+</td>
+</tr>
+</tbody></table>
+<h2>Device rollout (updates from newest to oldest)</h2>
+<h3>Update 3 - April 11, 2023</h3>
+<p>A new build of jpbROM 13.1 has now been released for the Android Emulator x86-64! It brings a new blurred notification shade, a new gallery app and font customization options. Sadly, Google have not yet released AOSP sources for the April security patch, so this build is still on the 2023-03-05 security patch<br>Download the new build (V13.1.5.0.TDVMNMI) below:<br></p><a href="https://drive.google.com/file/d/1KPAiTdz88QEBWu5pwXq9qATGaJKgmpWj/view?usp=share_link">Download jpbROM V13.1.5.0.TDVMNMI emulator image</a>
+<h3>Update 2 - April 5, 2023</h3>
+<p>jpbROM 13.1 has now been released for the Android Emulator x86-64! It brings many fixes to the user interface and a new Aperture camera app! Sorry, but the Pixel 6a build has not been released yet...<br>Pixel 6a users, please wait patiently or try out the build in the Android Emulator<br>Download the new build (V13.1.2.0.TDVMNMI) below:<br></p><a href="https://drive.google.com/file/d/1kCd4UFL_CIVC82ZPX0f5X91StM1jsjTV/view?usp=share_link">Download jpbROM V13.1.2.0.TDVMNMI emulator image</a>
+<h3>Update 1 - April 2, 2023</h3>
+<p>Sorry, jpbROM 13.1 for the Android Emulator x86-64 will not release today because of minor issues (unlike what was scheduled)<br>Please wait patiently for the first jpbROM 13.1 build...</p>
+<h3>Update 0/Original - March 25, 2023</h3>
+<p>jpbROM 13 has now been released! This is after MANY failiures in the jpbROM 12 build process - V12.0.3.0.SDVMNJB remains the last usable version of jpbROM 12...<br>This means there will be no new builds of jpbROM 12 being released for the sole supported device - the Android Emulator x86-64.<br>Today, it has received its first jpbROM 13 build (alongside Android 13) and is the first device to receive jpbROM 13!<br>Download the new build (V13.0.1.0.TDVMNJB) below:<br></p><a href="https://drive.google.com/file/d/1_rLl1jz0QhcNPhfCxjrKtBK6144kxtYX/view?usp=share_link">Download jpbROM V13.0.1.0.TDVMNJB emulator image</a>
+</div>
+</body>
+</html>
