@@ -1,1 +1,1 @@
-*.html linguist-vendored=false
+special-vendored-path/** linguist-vendored
